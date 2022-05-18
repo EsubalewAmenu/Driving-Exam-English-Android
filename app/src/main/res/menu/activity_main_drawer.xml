@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_exam_questions"
+            android:icon="@drawable/light6"
+            android:title="@string/exam_questions" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+        </menu>
+    </item>
+    <item android:title="@string/about">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/abf"
+                android:title="@string/action_rate" />
+            <item
+                android:id="@+id/nav_store"
+                android:icon="@drawable/b_next"
+                android:title="@string/action_store" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="@string/sle" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/info_s"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+
+</menu>

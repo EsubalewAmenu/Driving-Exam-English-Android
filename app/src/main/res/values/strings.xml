@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Driving Test</string>
+
+    <string name="start_questionnaire">Random Test</string>
+    <string name="questions_list">Test (By List)</string>
+
+    <string name="test_setting_header">Setting</string>
+
+    <string name="show_result">Show Result</string>
+    <string name="finish">Finish</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    በ
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_subtitle">Developed by Herma Apps</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_share">Share</string>
+
+    <string name="trafic_sign">Traffic Sign</string>
+    <string name="exam_questions">Exam Questions</string>
+
+    <string name="intro"> More than 5,500+ test exam questions for you....</string>
+    <string name="about_short">*Free* apps from DataScience P.L.C.\nEmail: apps@datascienceplc.com</string>
+    <string name="about">About</string>
+    <string name="menu_on_the_way">On driving</string>
+    <string name="menu_drving_license">Related to Licencing issue</string>
+    <string name="sle">About App</string>
+    <string name="cause">Cause</string>
+    <string name="action_rate">Rate us</string>
+    <string name="action_store">Other apps</string>
+    <string name="exit">Exit</string>
+    <string name="penality">Penalties</string>
+
+    <!-- Strings related to the network-->
+    <string name="no_network_title">No Internet</string>
+    <string name="no_network_message">No reward without internet</string>
+    <string name="check_network">No network available.\nPlease make sure you are connected to the Internet.</string>
+    <string name="go_to_settings">Go to settings</string>
+
+    <string name="app_description">Beneficial for students and teachers. Free to use and download text books.</string>
+
+    <string name="text_expanded">Expanded</string>
+    <string name="text_collapsed">Collapsed</string>
+
+    <string name="title_activity_delete">DeleteActivity</string>
+
+    <string name="others">Others</string>
+
+
+    <string name="test_exam">Test exam Questions</string>
+    <string name="answer">Answers</string>
+    <string name="pls_wait">Please wait...\n</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="show_answer">Show answer immediately</string>
+    <string name="no_of_que">Number of one bach questions</string>
+    <string name="test_veiw_header">Layout setting</string>
+    <string name="radio_gap">Gap between Choose</string>
+    <string name="owner_name">Name</string>
+    <string name="owner_phone">Phone number</string>
+    <string name="test_phone_owner">Your Info</string>
+    <string name="go_to_exam_question">Go to random questions</string>
+    <string name="cancel">Cancel</string>
+    <string name="lishelemu_new">Rewarded</string>
+    <string name="hint_email">hint_email</string>
+    <string name="hint_password">hint_password</string>
+    <string name="login">login</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="logout">logout</string>
+    <string name="change_password">Change Password</string>
+    <string name="hint_name">hint_name</string>
+    <string name="register">register</string>
+    <string name="btn_link_to_login">btn_link_to_login</string>
+    <string name="startAward">Start</string>
+
+</resources>
