@@ -27,14 +27,6 @@ import androidx.viewpager.widget.ViewPager;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
-
 import com.herma.apps.drivertraining.MainActivity;
 import com.herma.apps.drivertraining.R;
 import com.herma.apps.drivertraining.questions.adaptersj.ViewPagerAdapter;
@@ -66,8 +58,6 @@ public class QuestionActivity extends AppCompatActivity
 
     public String show_answer, packege;
 
-    private InterstitialAd mInterstitialAd;
-    private AdView mAdView;
 
     @SuppressLint("MissingPermission")
     @Override
@@ -90,30 +80,6 @@ try{
 //            parsingData(bundle);
 //        }
             parsingData();
-
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
-            }
-        });
-
-        mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
-
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-4996190576754944/9643798998");
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                // Code to be executed when an ad finishes loading.
-                if (mInterstitialAd.isLoaded()) {
-                    mInterstitialAd.show();
-                }
-            }
-        });
 
     }
     private void toolBarInit()
